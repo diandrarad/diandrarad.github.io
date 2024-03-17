@@ -1,6 +1,7 @@
 # Personal Website
 
 ![Screenshot](screenshot.gif)
+## Overview
 This website showcases my portfolio, blog, and other information. The project is built using HTML, CSS, and JavaScript, and utilizes the Bootstrap framework for styling. It showcases my portfolio, and blog, and provides information about my background and interests.
 
 ## Features
