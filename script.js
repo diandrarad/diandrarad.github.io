@@ -1,8 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
     let homeLink = document.getElementById('homelink');
     let aboutLink = document.getElementById('aboutlink');
     let portfolioLink = document.getElementById('portfoliolink');
     let blogLink = document.getElementById('bloglink');
+    let portfo = document.querySelector('.fa-suitcase')
 
     // Use buttons to toggle between views
     homeLink.addEventListener('click', function () {
@@ -11,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     aboutLink.addEventListener('click', () => load_about());
     portfolioLink.addEventListener('click', () => load_portfolio());
+    portfo.addEventListener('click', () => load_portfolio());
     blogLink.addEventListener('click', () => load_blog());
 
     function type() {

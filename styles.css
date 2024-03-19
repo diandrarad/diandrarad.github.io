@@ -55,6 +55,7 @@ body {
 
 .bi {
     color: #8abef1;
+    --bs-icon-link-transform: translate3d(0, -.125rem, 0);
 }
 
 .text-justify {
