@@ -60,8 +60,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
     // By default, load home
-    load_home();
-    type();
+    load_portfolio();
+    // type();
 
     function addHoverEffect(element) {
         element.classList.add('active');
